@@ -11,6 +11,42 @@ body{
     width:1200px;
 }
 
+.links{
+    width:200px;
+   color: white;
+   text-decoration: none;
+}
+.links::visited{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    color: #FFF9D1;
+    text-decoration: underline;
+}
+.flex-center
+{
+    display:flex;
+    align-items: center;
+}
+
+.social-logo{
+    width:32px;
+    height:32px;
+    margin:16px;
+}
+
+.content{
+    height:100%;
+    width:100%;
+    flex-direction:column;
+    display:flex; 
+    justify-content:center; 
+    align-items:center
+}
+#social{
+    display:flex; 
+}
 @media (pointer:coarse){
     .mainlogo{
         width:100%;
