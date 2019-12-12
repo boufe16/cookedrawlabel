@@ -1,26 +1,49 @@
 <!doctype html>
 <html>
-  <head>
-    <title>The Cooked Raw Label</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
-  </head>
-  <body>
-    <div class="content">
-      <img class="mainlogo" src="images/Cooked_Raw_with_Undertitle_blackBack.jpg">
-      
-      <div id="social">
-              <a class="flex-center links" target="_blank" class="links" href="https://cookedrawlabel.bandcamp.com/album/the-here-comes-the-pain-tape">
-        <img class="social-logo" src="images/bandcamp-button-circle-line-white-32.png"/>
-        cookedrawlabel
-    </a>
-     
-      <a class="flex-center links" target="_blank" class="links" href="https://www.instagram.com/cookedrawlabel/">
-          <img class="social-logo" src="images/IG_logo_white.png"/>
-          @cookedrawlabel
-      </a>
-      </div>
+
+<head>
+  <title>The Cooked Raw Label</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id='BIGBG'></div>
+ 
+  <div class="content">
+    <div class="topBox">
+      <img src="images/LongText.png" style="width:1000px;">
     </div>
-  </body>
+    <ul class="navMenu">
+      <li>
+        <a href="#music">Listen to this</a>
+      </li>
+      <li>
+        <a href="#merch">Buy this</a>
+      </li>
+    </ul>
+    <div id="social">
+      <a class="flex-center links" target="_blank" class="links"
+        href="https://cookedrawlabel.bandcamp.com/album/the-here-comes-the-pain-tape">
+        <img class="social-logo" src="images/bandcamp-button-circle-line-white-32.png" />
+        cookedrawlabel
+      </a>
+
+      <a class="flex-center links" target="_blank" class="links" href="https://www.instagram.com/cookedrawlabel/">
+        <img class="social-logo" src="images/IG_logo_white.png" />
+        @cookedrawlabel
+      </a>
+    </div>
+  </div>
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="components/product.js"></script>
+
+</body>
+
 </html>

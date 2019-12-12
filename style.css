@@ -7,8 +7,23 @@ body{
     margin:0;
 }
 
+.topBox{
+    width:1000px; 
+    border:1px solid red;
+    text-align:center;
+}
+.navMenu{
+    list-style: none;
+    background-color: #FFF9D1;
+    color:black
+}
+.topBox h1{
+    padding:0px;
+    margin:0px;
+    font-size:90px;
+}
 .mainlogo{
-    width:1200px;
+    width:100%;
 }
 
 .links{
@@ -37,12 +52,11 @@ body{
 }
 
 .content{
-    height:100%;
-    width:100%;
-    flex-direction:column;
-    display:flex; 
-    justify-content:center; 
-    align-items:center
+    background-color:rgba(3,3,3,.7);
+    width:1000px; 
+    margin:auto;
+    height:200vh;
+
 }
 #social{
     display:flex; 
@@ -51,4 +65,13 @@ body{
     .mainlogo{
         width:100%;
     }
+}
+
+#BIGBG{
+    position:absolute;
+    width:100vw;
+    height:1000000vh;
+    background-image: url("images/CookedRaw_All_Letters_blackBack_cropped.jpg");
+    background-position: top;
+    z-index:-1;
 }
