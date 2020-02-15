@@ -2,22 +2,26 @@
 <html>
 
 <head>
+  <meta charset="utf-8"/>
   <title>The Cooked Raw Label</title>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
   <div id='BIGBG'></div>
  
   <div class="content">
+
     <div class="topBox">
       <img src="images/LongText.png" style="width:1000px;">
     </div>
     <ul class="navMenu">
       <li>
-        <a href="#music">Listen to this</a>
+        <a href="#music">      <div class="myCustomProduct"></div>
+        </a>
       </li>
       <li>
         <a href="#merch">Buy this</a>
@@ -40,7 +44,6 @@
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-
   <!-- Load our React component. -->
   <script src="components/product.js"></script>
 

@@ -14,7 +14,14 @@ body{
 }
 .navMenu{
     list-style: none;
+    display: flex; 
+    justify-content: center;
     background-color: #FFF9D1;
+    color:black
+}
+.navMenu a {
+    margin:2rem;
+    text-decoration: none;
     color:black
 }
 .topBox h1{
