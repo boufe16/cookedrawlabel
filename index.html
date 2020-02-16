@@ -1,26 +1,51 @@
 <!doctype html>
 <html>
-  <head>
-    <title>The Cooked Raw Label</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
-  </head>
-  <body>
-    <div class="content">
-      <img class="mainlogo" src="images/Cooked_Raw_with_Undertitle_blackBack.jpg">
-      
-      <div id="social">
-              <a class="flex-center links" target="_blank" class="links" href="https://cookedrawlabel.bandcamp.com/album/the-here-comes-the-pain-tape">
-        <img class="social-logo" src="images/bandcamp-button-circle-line-white-32.png"/>
+
+<head>
+  <meta charset="utf-8" />
+  <title>The Cooked Raw Label</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="deps/jquery-mousewheel-3.1.12/jquery.mousewheel.min.js"></script>
+  <script src="deps/fa/all.min.js"></script>
+  <link rel="stylesheet" href="deps/fa/all.min.css"/>
+</head>
+
+<body>
+  <div id="splashScreen" class="logoSplash">
+    <img class="mainlogo" src="images/Cooked_Raw_with_Undertitle_blackBack.jpg">
+
+    <div id="social">
+      <a class="flex-center links" target="_blank" class="links"
+        href="https://cookedrawlabel.bandcamp.com/album/the-here-comes-the-pain-tape">
+        <img class="social-logo" src="images/bandcamp-button-circle-line-white-32.png" />
         cookedrawlabel
-    </a>
-     
-      <a class="flex-center links" target="_blank" class="links" href="https://www.instagram.com/cookedrawlabel/">
-          <img class="social-logo" src="images/IG_logo_white.png"/>
-          @cookedrawlabel
       </a>
+
+      <a class="flex-center links" target="_blank" class="links" href="https://www.instagram.com/cookedrawlabel/">
+        <img class="social-logo" src="images/IG_logo_white.png" />
+        @cookedrawlabel
+      </a>
+    </div>
+  </div>
+  <div id="carouselContainer">
+    <h1>Still-raw releases</h1>
+    <div id="carousel">
+      <div class="arrow">
+        <i class="fa fa-2x fa-angle-left"></i>
+      </div>
+      <div class="centerPane">
+        Some Content here
+      </div>
+      <div class="arrow">
+        <i class="fa fa-2x fa-angle-right"></i>
+
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
